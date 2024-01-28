@@ -107,6 +107,7 @@ button:hover {
 }
 
 #Cancel {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     font-weight: 900;
