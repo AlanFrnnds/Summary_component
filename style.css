@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
@@ -19,7 +20,7 @@ body {
 
 main {
     width: 360px;
-    height: 550px;
+    height: 570px;
     background-color: white;
     border-radius: 14px;
 }
@@ -32,7 +33,6 @@ img {
 h1 {
     margin-top: 21px;
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
     font-size: 22px;
     color: hsl(223, 47%, 23%);
@@ -40,7 +40,6 @@ h1 {
 
 #texto1 #Text {
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
     font-size: 14px;
     font-weight: 500;
     margin-top: 10px;
@@ -68,32 +67,29 @@ section {
 #containerText {
     margin-top: 22px;
     text-align: center;
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 #Annual {
-    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
     font-size: 14px;
 }
 
 #preco {
     color: rgb(100, 115, 128);
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 5%;
 }
 
 #Change {
     display: inline;
-    margin: auto 27px auto 61px;
+    margin: auto 27px auto 51px;
     color: rgb(45, 0, 168);
     font-weight: 700;
     font-size: 13px;
     text-decoration: underline;
-    font-family: 'Red Hat Display', sans-serif;
 }
 
 button {
-    font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     margin: 24px auto auto 32px;
     border-radius: 10px;
@@ -111,10 +107,10 @@ button:hover {
 }
 
 #Cancel {
-    font-family: 'Red Hat Display', sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-weight: 900;
     font-size: 12px;
     color: rgb(115, 138, 158);
-    margin-top: 18px;
+    margin-top: 30px;
 }
